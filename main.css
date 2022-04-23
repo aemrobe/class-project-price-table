@@ -90,6 +90,7 @@ body {
     hsl(236, 72%, 79%),
     hsl(237, 63%, 64%)
   );
+  border: 1px solid transparent;
   padding: 23px 0;
   margin: 33px 30px 31px;
   display: block;
@@ -100,11 +101,24 @@ body {
   color: var(--Very-Light-Grayish-Blue);
   background: var(--Linear-Gradient);
   border-radius: 8px;
+  transition: background 0.5s ease, border 0.5s ease, color 0.5s ease;
+}
+
+.more-btn:hover {
+  background: transparent;
+  color: hsl(237, 63%, 64%);
+  border: 1px solid hsl(237, 63%, 64%);
 }
 
 .pricing__item--active .more-btn {
   background: var(--Very-Light-Grayish-Blue);
   color: hsl(237, 63%, 64%);
+}
+
+.pricing__item--active .more-btn:hover {
+  border: 1px solid var(--Very-Light-Grayish-Blue);
+  background: transparent;
+  color: var(--Very-Light-Grayish-Blue);
 }
 
 .pricing__item--active .service {
