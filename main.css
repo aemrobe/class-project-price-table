@@ -33,6 +33,15 @@ body {
   margin: 0 22px;
 }
 
+.fas {
+  color: hsl(237, 63%, 64%);
+  transition: opacity 0.5s ease;
+}
+
+.fas:hover {
+  opacity: 0.5;
+}
+
 .pricing {
   display: flex;
   justify-content: center;
