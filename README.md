@@ -1,1 +1,1 @@
-# class-project-price-table
+# class-project-profile-card-table
