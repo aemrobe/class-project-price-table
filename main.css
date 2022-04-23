@@ -62,7 +62,7 @@ body {
 .pricing__item--active {
   background: var(--Linear-Gradient);
   height: 575px;
-  border-radius: 8px;
+  border-radius: 10px;
   color: var(--Very-Light-Grayish-Blue);
 }
 
